@@ -1,0 +1,36 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Output directories
+output/images/
+output/logs/
+
+# Dataset files
+data/cifar-10-python.tar.gz
+data/cifar-10-batches-py/
+
+# Models directory (if used for storing model checkpoints)
+models/
+
+# OS-specific files
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

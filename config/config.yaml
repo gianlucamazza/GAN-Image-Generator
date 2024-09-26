@@ -1,0 +1,12 @@
+train:
+  batch_size: 64
+  epochs: 50
+  learning_rate: 0.0002
+  latent_dim: 100
+
+data:
+  dataset_name: cifar10
+  download: true
+  dataset_path: "./data"
+  image_size: 32 # CIFAR-10 ha immagini di 32x32
+

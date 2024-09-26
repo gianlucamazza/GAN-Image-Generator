@@ -1,0 +1,27 @@
+[flake8]
+# Ignorare determinati errori
+ignore = E203, E266, E501, W503
+
+# Impostare la lunghezza massima della riga a 88 (compatibile con Black formatter)
+max-line-length = 88
+
+# Escludere alcune directory o file
+exclude = 
+    .git,
+    __pycache__,
+    build,
+    dist,
+    migrations,
+    venv
+
+# Mostrare statistiche di errori ripetuti
+count = True
+
+# Specificare il formato dell'output
+format = pylint
+
+# Mostrare complessità del codice (Cyclomatic complexity)
+max-complexity = 10
+
+# Aggiungere eventuali estensioni (plugin)
+extend-ignore = E731
